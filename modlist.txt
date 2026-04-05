@@ -1,0 +1,90 @@
+NeoForge (Loader) https://neoforged.net/ (for obvious reasons) 
+
+Architectury API https://modrinth.com/mod/architectury-api/version/neoforge-13.0.6 (Required by many cross-platform mods) 
+
+Cloth Config API https://modrinth.com/mod/cloth-config/version/neoforge-15.0.127 
+
+Embeddium https://modrinth.com/mod/embeddium/version/0.3.31+mc1.21.1 (Sodium alternative for NeoForge) 
+
+Geckolib https://modrinth.com/mod/geckolib/version/neoforge-1.21.1-4.7 
+
+Embeddium Extras https://modrinth.com/mod/embeddium-extras/version/1.0.1 (Indium alternative for performance features) 
+
+FerriteCore https://modrinth.com/mod/ferrite-core/version/7.0.0-neoforge (Memory optimization) 
+
+Chunky https://modrinth.com/plugin/chunky/version/neoforge-1.4.16 (world pre-generation) 
+
+ModernFix https://modrinth.com/mod/modernfix/version/neoforge-5.19.1 (Replaces Starlight/Krypton logic for 1.21+) 
+
+Create (NeoForge) https://modrinth.com/mod/create/version/0.6-neoforge 
+	Create: Steam 'n' Rails https://modrinth.com/mod/create-steam-n-rails/version/1.6.5+neoforge-mc1.21.1 
+	Create: Copycats+ https://modrinth.com/mod/copycats/version/2.1.2+mc.1.21.1-neoforge 
+	Create Deco https://modrinth.com/mod/create-deco/version/2.0.2-1.21.1-neoforge 
+	Create: Bells & Whistles https://modrinth.com/mod/bellsandwhistles/version/0.4.5-mc1.21.1-neoforge 
+	Create: Threaded Trains https://modrinth.com/mod/create-threaded-trains/version/1.21.1-1.0.0 (just for better performance) 
+	Create: New Age https://modrinth.com/mod/create-new-age/version/1.1.2-neoforge 
+	Create: Interiors https://modrinth.com/mod/interiors/version/0.6.0-neoforge-1.21.1 
+	Create: Food https://modrinth.com/mod/create-food/version/2.0.0a
+	Create: Blocks & Bogies https://modrinth.com/mod/blocks-bogies/version/1.0.6-1.21.1
+	Create: Enchantable Machinery https://modrinth.com/mod/create-enchantable-machinery/version/3.4.3+mc1.21.1-neoforge
+	Create: Enchantment Industry https://modrinth.com/mod/create-enchantment-industry/version/2.2.5b
+	Create: Bits 'n' Bobs https://modrinth.com/mod/create-bits-n-bobs/version/0.0.41
+	Create: Drills 'n' Mills working on it
+	Create Crafts & Additions https://modrinth.com/mod/createaddition/version/neoforge-1.21.1-1.5.9
+	Create: Dreams & Desires https://modrinth.com/mod/create-dreams-and-desires/version/2.2b-BETA
+	Create Slice & Dice https://modrinth.com/mod/slice-and-dice/version/4.2.2
+
+Applied Energistics 2 https://modrinth.com/mod/ae2/version/neoforge-19.1.5 
+	AE2 Wireless Terminals https://modrinth.com/mod/applied-energistics-2-wireless-terminals/version/19.0.2-neoforge 
+	Extended AE https://modrinth.com/mod/extended-ae/version/1.21-2.2.27-neoforge
+	AdvancedAE https://modrinth.com/mod/advancedae/version/1.6.9-1.21.1
+EMI https://modrinth.com/mod/emi/version/1.1.15+1.21.1+neoforge 
+
+	EMI Enchants https://modrinth.com/mod/emi-enchanting/version/0.1.4+1.21.1-neoforge 
+	EMI Loot https://modrinth.com/mod/emi-loot/version/0.7.15+1.21.1+neoforge 
+
+Entity Culling https://modrinth.com/mod/entityculling/version/neoforge-1.7.2 
+
+Configured https://modrinth.com/mod/configured/version/neoforge-2.4.1 (Mod Menu alternative for NeoForge) 
+
+Xaero's Minimap https://modrinth.com/mod/xaeros-minimap/version/neoforge-1.21.1-24.5.0 
+
+Dynamic FPS https://modrinth.com/mod/dynamic-fps/version/Ea57bDXK 
+
+Simple Voice Chat https://modrinth.com/plugin/simple-voice-chat/version/neoforge-1.21.1-2.5.21 
+
+Memory Leak Fix https://modrinth.com/mod/memoryleakfix/version/neoforge-1.1.5 
+
+BetterF3 https://modrinth.com/mod/betterf3/version/11.0.1-neoforge 
+
+Clumps https://modrinth.com/mod/clumps/version/18.0.0.2 
+
+Biomes O' Plenty https://modrinth.com/mod/biomes-o-plenty/version/21.1.0.32 
+
+TerraBlender https://modrinth.com/mod/terrablender/version/neoforge-4.1.0.2 
+
+Traveler's Backpack https://modrinth.com/mod/travelersbackpack/version/neoforge-1.21.1-11.1.8 
+
+Modern Industrialization https://modrinth.com/mod/modern-industrialization/version/2.4.1 
+	Modern Nuclearization https://modrinth.com/mod/mi-nukes/version/2.0 
+	GuideME https://modrinth.com/mod/guideme/version/21.1.14
+	Extended Industrialization https://modrinth.com/mod/extended-industrialization/version/1.15.25-1.21.1
+Jade https://modrinth.com/mod/jade/version/15.1.5+neoforge 
+	bad packets https://modrinth.com/mod/badpackets/version/neoforge-0.8.1 
+	
+No Chat Reports https://modrinth.com/mod/no-chat-reports/version/neoforge-1.21.1-v2.8.0 
+
+Polymorph https://modrinth.com/mod/polymorph/version/neoforge-1.0.0-rc1 
+	
+AppleSkin https://modrinth.com/mod/appleskin/version/neoforge-1.21-3.0.6 
+
+Mouse Tweaks https://modrinth.com/mod/mouse-tweaks/version/2.26 
+
+Infinite Storage Cell https://modrinth.com/mod/infinite-storage-cell (Alternative for Infinite AE2 Fluid Cards)	
+
+AdoraBuild: Structures https://modrinth.com/mod/adorabuild-structures/version/l7GS6bZj
+
+Farmer's Delight https://modrinth.com/mod/farmers-delight/version/1.21.1-1.2.9
+	Vegan Delight https://modrinth.com/mod/vegan-delight/version/2.0.0-beta4
+	
+ 

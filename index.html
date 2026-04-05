@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gears 'n' Tears SMP | Minecraft Server</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        wood: {
+                            light: '#E8DCC4',
+                            DEFAULT: '#8B5A2B',
+                            dark: '#2F1E19' /* Ombra scura del logo */
+                        },
+                        brass: {
+                            light: '#FFF1A0',
+                            DEFAULT: '#FCD859', /* Oro della scritta SMP */
+                            dark: '#D4A017'
+                        },
+                        copper: {
+                            light: '#D98A6C',
+                            DEFAULT: '#B87333',
+                            dark: '#8C4824'
+                        },
+                        geargreen: {
+                            light: '#A8D5B4',
+                            DEFAULT: '#88B595', /* Verde della scritta GEARS N TEARS */
+                            dark: '#4E7358'
+                        },
+                        andesite: {
+                            DEFAULT: '#9AA0A3', /* Grigio pietra di Create */
+                            dark: '#606466'
+                        },
+                        paper: '#F5EAD5'
+                    },
+                    fontFamily: {
+                        heading: ['Zilla Slab', 'serif'],
+                        body: ['Nunito', 'sans-serif']
+                    },
+                    animation: {
+                        'spin-slow': 'spin 6s linear infinite',
+                        'spin-slow-reverse': 'spin 8s linear infinite reverse'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-wood-light bg-engineering-grid text-wood-dark font-body antialiased selection:bg-geargreen selection:text-wood-dark">
+
+    <nav class="bg-paper shadow-md border-b-4 border-wood-dark sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="font-heading text-2xl md:text-3xl text-wood-dark font-bold flex items-center gap-2 group">
+                <span class="inline-block group-hover:animate-spin-slow">⚙️</span> Gears 'n' Tears SMP
+            </a>
+            <div class="hidden md:flex gap-6 font-bold text-geargreen-dark">
+                <a href="#about" class="hover:text-brass-dark transition-colors">About Us</a>
+                <a href="#rules" class="hover:text-brass-dark transition-colors">Rules</a>
+                <a href="#mods" class="hover:text-brass-dark transition-colors">Mods</a>
+                <a href="#map" class="hover:text-brass-dark transition-colors">Map</a>
+            </div>
+            <a href="https://discord.gg/TUOLINK" target="_blank" class="bg-geargreen hover:bg-geargreen-dark text-wood-dark px-5 py-2 rounded-lg font-bold transition-all shadow-md border-b-4 border-geargreen-dark active:border-b-0 active:translate-y-1">
+                Join our Discord
+            </a>
+        </div>
+    </nav>
+
+    <header class="max-w-5xl mx-auto px-4 py-16 text-center">
+        <img src="smp title.png" alt="Gears 'n' Tears SMP Logo" class="w-full max-w-3xl mx-auto mb-8 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
+        
+        <h1 class="font-heading text-4xl md:text-5xl text-wood-dark mb-6 font-bold tracking-wide">Benvenuti nel nostro piccolo angolo di pace</h1>
+        <p class="text-xl mb-8 opacity-90 font-bold text-geargreen-dark">A modded survival server with a tight-knit community</p>
+        
+        <button id="copyIpBtn" class="bg-brass hover:bg-brass-dark text-wood-dark px-8 py-3 rounded-xl font-heading text-2xl font-bold shadow-lg transition-all transform hover:-translate-y-1 border-b-4 border-brass-dark border-x-2 border-t-2 active:border-b-0 active:translate-y-1 flex items-center gap-3 mx-auto">
+            <span class="inline-block animate-spin-slow">⚙️</span> Copia IP: play.gearsntears.it
+        </button>
+    </header>
+
+    <section id="about" class="max-w-4xl mx-auto px-4 py-16">
+        <div class="bg-paper p-8 rounded-xl shadow-xl border-4 border-wood-dark border-b-8 casing">
+            <div class="rivet rivet-brass rivet-tl"></div><div class="rivet rivet-brass rivet-tr"></div>
+            <div class="rivet rivet-brass rivet-bl"></div><div class="rivet rivet-brass rivet-br"></div>
+            
+            <h2 class="font-heading text-4xl mb-4 text-brass-dark font-bold drop-shadow-sm">🍂 About Us </h2>
+            <p class="mb-4 leading-relaxed font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="leading-relaxed font-semibold">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+
+    <section id="rules" class="max-w-4xl mx-auto px-4 py-16">
+        <h2 class="font-heading text-4xl mb-8 text-center text-geargreen-dark font-bold flex items-center justify-center gap-3">
+            <span class="inline-block animate-spin-slow-reverse">⚙️</span> Our Rules <span class="inline-block animate-spin-slow-reverse">⚙️</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-[#e4e6e8] p-6 rounded-xl shadow-md border-4 border-andesite-dark casing">
+                <div class="rivet rivet-andesite rivet-tl"></div><div class="rivet rivet-andesite rivet-tr"></div>
+                <div class="rivet rivet-andesite rivet-bl"></div><div class="rivet rivet-andesite rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-2 text-wood-dark font-bold border-b-2 border-andesite pb-2">1. Rispetto reciproco</h3>
+                <p class="text-sm font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+            </div>
+            <div class="bg-[#e4e6e8] p-6 rounded-xl shadow-md border-4 border-andesite-dark casing">
+                <div class="rivet rivet-andesite rivet-tl"></div><div class="rivet rivet-andesite rivet-tr"></div>
+                <div class="rivet rivet-andesite rivet-bl"></div><div class="rivet rivet-andesite rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-2 text-wood-dark font-bold border-b-2 border-andesite pb-2">2. Niente Griefing</h3>
+                <p class="text-sm font-semibold">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.</p>
+            </div>
+            <div class="bg-[#e4e6e8] p-6 rounded-xl shadow-md border-4 border-andesite-dark casing">
+                <div class="rivet rivet-andesite rivet-tl"></div><div class="rivet rivet-andesite rivet-tr"></div>
+                <div class="rivet rivet-andesite rivet-bl"></div><div class="rivet rivet-andesite rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-2 text-wood-dark font-bold border-b-2 border-andesite pb-2">3. Costruisci in armonia</h3>
+                <p class="text-sm font-semibold">Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+            </div>
+            <div class="bg-[#e4e6e8] p-6 rounded-xl shadow-md border-4 border-andesite-dark casing">
+                <div class="rivet rivet-andesite rivet-tl"></div><div class="rivet rivet-andesite rivet-tr"></div>
+                <div class="rivet rivet-andesite rivet-bl"></div><div class="rivet rivet-andesite rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-2 text-wood-dark font-bold border-b-2 border-andesite pb-2">4. Divertiti</h3>
+                <p class="text-sm font-semibold">Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mods" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="font-heading text-4xl mb-4 text-brass-dark font-bold">✨ Mods & Features</h2>
+            <p class="text-lg opacity-90 max-w-2xl mx-auto font-bold text-geargreen-dark">A selection of hand-picked mods to ensure a fun gaming experience</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-paper p-6 rounded-xl shadow-md border-4 border-wood-dark hover:border-geargreen-dark transition-colors casing">
+                <div class="rivet rivet-brass rivet-tl"></div><div class="rivet rivet-brass rivet-tr"></div>
+                <div class="rivet rivet-brass rivet-bl"></div><div class="rivet rivet-brass rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-4 text-geargreen-dark font-bold flex items-center gap-2">⚙️ Technology</h3>
+                <ul class="space-y-3 text-sm leading-relaxed font-semibold">
+                    <li><strong class="text-wood-dark">Create:</strong> The mechanical heart, with expansions such as Steam 'n' Rails, New Age, Enchantment Industry, Crafts & Additions and Slice & Dice.</li>
+                    <li><strong class="text-wood-dark">Applied Energistics 2:</strong> For digital and logistics management, supported by Wireless Terminals, Extended AE, AdvancedAE and Infinite Storage Cell.</li>
+                    <li><strong class="text-wood-dark">Modern Industrialization:</strong> Advanced Industry, complete with add-ons such as Nuclearization and Extended Industrialization.</li>
+                </ul>
+            </div>
+
+            <div class="bg-paper p-6 rounded-xl shadow-md border-4 border-wood-dark hover:border-geargreen-dark transition-colors casing">
+                <div class="rivet rivet-brass rivet-tl"></div><div class="rivet rivet-brass rivet-tr"></div>
+                <div class="rivet rivet-brass rivet-bl"></div><div class="rivet rivet-brass rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-4 text-geargreen-dark font-bold flex items-center gap-2">🏡 Decor & Build</h3>
+                <ul class="space-y-3 text-sm leading-relaxed font-semibold">
+                    <li><strong class="text-wood-dark">Create Deco & Interiors:</strong> To aesthetically enrich your bases.</li>
+                    <li><strong class="text-wood-dark">Copycats+ & Blocks & Bogies:</strong> For new architectural shapes and details.</li>
+                    <li><strong class="text-wood-dark">Bits 'n' Bobs:</strong> Extra finishing touches for your builds.</li>
+                    <li><strong class="text-wood-dark">AdoraBuild: Structures:</strong> New and fascinating structures to explore around the world.</li>
+                </ul>
+            </div>
+
+            <div class="bg-paper p-6 rounded-xl shadow-md border-4 border-wood-dark hover:border-geargreen-dark transition-colors casing">
+                <div class="rivet rivet-brass rivet-tl"></div><div class="rivet rivet-brass rivet-tr"></div>
+                <div class="rivet rivet-brass rivet-bl"></div><div class="rivet rivet-brass rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-4 text-geargreen-dark font-bold flex items-center gap-2">🌾 Exploration</h3>
+                <ul class="space-y-3 text-sm leading-relaxed font-semibold">
+                    <li><strong class="text-wood-dark">Biomes O' Plenty:</strong> Breathtaking world generation, powered by TerraBlender.</li>
+                    <li><strong class="text-wood-dark">Farmer's Delight:</strong> It greatly expands farming and cooking, complemented by Vegan Delight and Create: Food.</li>
+                    <li><strong class="text-wood-dark">Traveler's Backpack:</strong> Spacious backpacks for longer and more adventurous trips.</li>
+                </ul>
+            </div>
+
+            <div class="bg-paper p-6 rounded-xl shadow-md border-4 border-wood-dark hover:border-geargreen-dark transition-colors casing md:col-span-3">
+                <div class="rivet rivet-brass rivet-tl"></div><div class="rivet rivet-brass rivet-tr"></div>
+                <div class="rivet rivet-brass rivet-bl"></div><div class="rivet rivet-brass rivet-br"></div>
+                <h3 class="font-heading text-2xl mb-4 text-geargreen-dark font-bold flex items-center gap-2">⚡ Performance & Quality of Life</h3>
+                <p class="text-sm mb-4 font-semibold">To ensure a smooth experience we use NeoForge with the best optimization mods:</p>
+                <ul class="flex flex-wrap gap-2 text-xs font-bold">
+                    <li class="bg-geargreen text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">Embeddium & Extras</li>
+                    <li class="bg-geargreen text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">FerriteCore</li>
+                    <li class="bg-geargreen text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">ModernFix</li>
+                    <li class="bg-brass text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">EMI & Addons</li>
+                    <li class="bg-brass text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">Xaero's Minimap</li>
+                    <li class="bg-brass text-wood-dark px-3 py-1.5 rounded-md border-2 border-wood-dark shadow-sm">Simple Voice Chat</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <p class="mb-4 text-wood-dark font-bold text-sm italic">Want to see the complete technical list of all versions and dependencies?</p>
+            <a href="modlist.txt" target="_blank" class="inline-flex items-center gap-2 bg-andesite text-wood-dark px-6 py-3 rounded-xl font-heading text-lg font-bold hover:bg-andesite-dark transition-all shadow-md border-4 border-wood-dark active:translate-y-1">
+                📄 View Full Modlist (.txt)
+            </a>
+        </div>
+    </section>
+
+    <section id="map" class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="font-heading text-4xl mb-6 text-center text-geargreen-dark font-bold">🗺️ Explore the World</h2>
+        <p class="text-center mb-8 font-bold text-wood">Take a real-time look at our buildings with BlueMap!</p>
+        
+        <div class="w-full h-[500px] rounded-xl overflow-hidden shadow-2xl border-8 border-wood-dark bg-paper casing relative">
+            <iframe 
+                src="http://185.206.150.78:26923" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                class="relative z-0">
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="bg-wood-dark text-geargreen-light py-10 mt-10 border-t-8 border-brass-dark">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="font-heading text-3xl mb-6 font-bold text-brass">Ready to start the adventure?</p>
+            <a href="https://discord.gg/TUOLINK" target="_blank" class="inline-block bg-geargreen hover:bg-geargreen-dark text-wood-dark px-8 py-3 rounded-xl font-heading text-xl font-bold transition-all mb-8 shadow-lg border-b-4 border-[#2F1E19] active:border-b-0 active:translate-y-1">
+                Join our Discord Server
+            </a>
+            <p class="text-xs opacity-70 font-semibold leading-relaxed max-w-xl mx-auto text-paper">
+                © 2026 Gears 'n' Tears SMP. All rights reserved.<br>
+                Gears 'n' Tears SMP is in no way approved, associated, or endorsed by Mojang or Microsoft.<br>
+                Minecraft is © and a registered trademark of Mojang AB 2009-2026.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
