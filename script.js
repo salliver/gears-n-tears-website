@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const originalHTML = copyIpBtn.innerHTML;
             // Mostra l'ingranaggio che gira e la conferma
-            copyIpBtn.innerHTML = '<span class="inline-block animate-spin-slow">⚙️</span> IP Copiato!';
+            copyIpBtn.innerHTML = '<span class="inline-block animate-spin-slow">⚙️</span> IP Copied!';
             
             copyIpBtn.classList.replace('bg-brass', 'bg-geargreen');
             copyIpBtn.classList.replace('border-brass-dark', 'border-geargreen-dark');
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 2000);
             
         } catch (err) {
-            console.error('Errore durante la copia: ', err);
-            copyIpBtn.innerHTML = '🔧 Errore di copia';
+            console.error('Errore during copy: ', err);
+            copyIpBtn.innerHTML = '🔧 Error';
         }
     });
 });
