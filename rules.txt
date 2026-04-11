@@ -1,0 +1,136 @@
+================================================================
+         GEARS N' TEARS — SERVER RULES & SANCTIONS
+              Modded Minecraft Server | NeoForge 1.21.1
+                      Last updated: April 2026
+================================================================
+
+Welcome to Gears n' Tears. To keep the server fun and fair for
+everyone, all players are expected to read and follow the rules
+below. Violations will be handled by staff according to the
+sanctions listed under each rule.
+
+By joining the server you agree to these rules.
+
+----------------------------------------------------------------
+
+1. BE POLITE
+------------
+Keep cursing to a minimum and avoid insulting others. Respect
+other players' space — do not build too close to neighbors
+without permission.
+
+  Punishment: 3rd recall = Permanent Ban.
+
+----------------------------------------------------------------
+
+2. NO HACKS
+-----------
+No cheats, bugs, or exploits of any kind. If you discover a bug
+or exploit, report it to staff immediately. Using it for
+personal gain will be treated the same as hacking.
+
+  Punishment: Cheats = Ban. 1st dupe = Item removal.
+              2nd dupe = Permanent Ban.
+
+----------------------------------------------------------------
+
+3. ZERO TOLERANCE
+-----------------
+No heavy curse words (e.g., N-word). No racism, racist remarks,
+or hate speech in chat or voice calls. This rule has no
+warnings.
+
+  Punishment: IMMEDIATE PERMANENT BAN.
+
+----------------------------------------------------------------
+
+4. SOCIAL RULES
+---------------
+No spamming in chat. Do not send direct messages to staff or
+players without permission — use the ticket system for support
+requests.
+
+  Punishment: Spam: 2 recalls = 5d Mute.
+              DMs: 3 recalls = 2d Ban.
+
+----------------------------------------------------------------
+
+5. ADVERTISING
+--------------
+Do not share links, advertisements, or promotions of any kind
+without asking staff for permission first.
+
+  Punishment: 2nd recall = 5 day Ban.
+
+----------------------------------------------------------------
+
+6. GRIEF & STEAL
+----------------
+Do not grief or steal from other players. If a creeper or other
+mob causes damage near your area, repair the damage and inform
+the affected player.
+
+  Punishment: Stealing: 2nd time = Ban.
+              Grief: Must rebuild all damage.
+
+----------------------------------------------------------------
+
+7. SERVER PERFORMANCE
+---------------------
+Do not intentionally or unintentionally lag the server. Turn off
+large Create mod factories and other heavy machines when you
+log off.
+
+  Punishment: 3rd recall = 1 day Ban.
+              Intentional lag = Permanent Ban.
+
+----------------------------------------------------------------
+
+8. NO CHUNK LOADERS
+-------------------
+Chunk loaders of any kind are not allowed without explicit staff
+approval. If you need one for a specific build or automation,
+open a ticket on Discord and wait for authorization before
+placing it.
+
+  Punishment: Immediate removal. 2nd time = 1 day Ban.
+
+----------------------------------------------------------------
+
+9. NO TRAPPING
+--------------
+Do not trap, trick, or deceive other players. This includes
+teleport traps, lava pits, fake portals, trickery with items or
+trades, or any other method designed to harm or grief another
+player through deception.
+
+  Punishment: 1st time = 3 day Ban. 2nd time = Permanent Ban.
+
+----------------------------------------------------------------
+
+10. RESPECT STAFF
+-----------------
+Respect all staff decisions. Do not argue, complain, or cause
+drama publicly in chat. If you disagree with a decision, open a
+ticket on Discord and state your case calmly and privately.
+Staff have the final word.
+
+  Punishment: 1st recall = Mute. 2nd recall = 1 day Ban.
+
+================================================================
+NOTES & DEFINITIONS
+================================================================
+
+  Recall   : A formal warning issued by a staff member,
+             logged in the system.
+
+  Mute     : Player is unable to send messages in chat for
+             the specified duration.
+
+  Ban      : Player is temporarily or permanently removed
+             from the server.
+
+Staff decisions are final. Appeals can be submitted through
+the official Discord ticket system.
+
+================================================================
