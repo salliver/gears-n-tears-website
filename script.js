@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const copyIpBtn = document.getElementById('copyIpBtn');
-    const serverIp = 'gears-n-tears.modrinth.gg'; 
+    const serverIp = 'play.gearsntears.com'; 
 
     copyIpBtn.addEventListener('click', async () => {
         try {
